@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # All hal commans for IO ontrol
 
 #  IO - INPUTS
@@ -17,6 +18,25 @@ net 4alarm => joint.3.amp-fault-in <= hm2_7i76e.0.7i76.0.0.input-23
 # DI 08
 # DI 09
 # DI 10
+=======
+#  IO - INPUTS 
+
+#AI 00
+#AI 01
+#AI 02
+#AI 03
+#DI 04
+net x_alarm => joint.0.amp-fault-in <= hm2_7i76e.0.7i76.0.0.input-04
+#DI 05
+net y_alarm => joint.1.amp-fault-in <= hm2_7i76e.0.7i76.0.0.input-05
+#DI 06
+net y2_alarm => joint.2.amp-fault-in <= hm2_7i76e.0.7i76.0.0.input-06
+#DI 07
+net z_alarm => joint.3.amp-fault-in <= hm2_7i76e.0.7i76.0.0.input-07
+#DI 08
+#DI 09
+#DI 10
+>>>>>>> 36f96175fece696d324f3381deb2484f1bd162fb
 # --- Jianken Spindle Sensor 1 ---
 # Mapping sensor 1 in ATC spindle: signal high = tool clamped
 #net spindle_tool     <=  hm2_7i76e.0.7i76.0.0.input-10 motion.digital-in-00
